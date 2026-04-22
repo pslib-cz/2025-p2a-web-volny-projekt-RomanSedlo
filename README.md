@@ -1,8 +1,8 @@
 # Volný projekt
 
-> **Jméno a příjmení:** `Doplňte`
+> **Jméno a příjmení:** `Roman Sedlář`
 
-> **Název projektu:** `Doplňte`
+> **Název projektu:** `TheRainShark portfolio`
 
 ---
 
@@ -10,7 +10,7 @@
 
 _Krátce popište svůj projekt – čemu se věnuje, co nabízí a jaký problém řeší?_
 
-`Doplňte popis projektu.`
+`Portfolio`
 
 ---
 
@@ -18,7 +18,7 @@ _Krátce popište svůj projekt – čemu se věnuje, co nabízí a jaký probl�
 
 _Uveďte konkurenční projekty. Co se vám na nich líbí, co ne? V čem se můžete inspirovat?_
 
-`Doplňte konkurence a její popis.`
+`Moje inspiracia: [https://incompetech.com/music/royalty-free/music.html](incompetech.com)`
 
 ---
 
@@ -26,7 +26,7 @@ _Uveďte konkurenční projekty. Co se vám na nich líbí, co ne? V čem se mů
 
 _Kdo je váš cílový uživatel / zákazník? Popište typického zástupce cílové skupiny._
 
-`Doplňte cílovou skupinu.`
+`Zájemci o Hudbu pro filmy, hry, videa...`
 
 
 ## Odkazy a výstupy
@@ -37,7 +37,7 @@ _Shrnutí všech odkazů na jednom místě. Průběžně aktualizujte._
 |---|---|
 | GitHub Pages (live) | [`Doplň odkaz`](#) |
 | Grafický manuál (Figma / Canva) | [`Doplň odkaz`](#) |
-| Grafický návrh webu (Figma) | [`Doplň odkaz`](#) |
+| Grafický návrh webu (Figma) | [`https://www.figma.com/design/D6fSvLBAyptDA2pqgEOLBu/TheRainShark-design?node-id=0-1&t=tj17cm2Oxjo2YCQk-1`](FIGMAAAA) |
 | Fotografie / média | [`Doplň odkaz`](#) |
 
 ---
