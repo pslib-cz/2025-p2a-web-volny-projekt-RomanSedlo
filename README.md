@@ -21,7 +21,7 @@ _Uveďte konkurenční projekty. Co se vám na nich líbí, co ne? V čem se mů
 Moje inspiracia: 
  [incompetech.com](https://incompetech.com/music/royalty-free/music.html)
  [thefatrat.com](https://www.thefatrat.com/)
- [`Filip Znachor`](https://f-z.cz/)
+ [Filip Znachor](https://f-z.cz/)
 
 
 ---
@@ -41,7 +41,7 @@ _Shrnutí všech odkazů na jednom místě. Průběžně aktualizujte._
 |---|---|
 | GitHub Pages (live) | [`Doplň odkaz`](#) |
 | Grafický manuál (Figma / Canva) | [`Již brzy`](#) |
-| Grafický návrh webu (Figma) | [`https://www.figma.com/design/D6fSvLBAyptDA2pqgEOLBu/TheRainShark-design?node-id=0-1&t=tj17cm2Oxjo2YCQk-1`](FIGMAAAA) |
+| Grafický návrh webu (Figma) | [`[FIGMA]`](https://www.figma.com/design/D6fSvLBAyptDA2pqgEOLBu/TheRainShark-design?node-id=0-1&t=tj17cm2Oxjo2YCQk-1) |
 | Fotografie / média | [`Doplň odkaz`](#) |
 
 ---
