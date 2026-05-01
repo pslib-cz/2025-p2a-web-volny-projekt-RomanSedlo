@@ -18,10 +18,10 @@ _Krátce popište svůj projekt – čemu se věnuje, co nabízí a jaký probl�
 
 _Uveďte konkurenční projekty. Co se vám na nich líbí, co ne? V čem se můžete inspirovat?_
 
-`Moje inspiracia: 
- [https://incompetech.com/music/royalty-free/music.html](incompetech.com)
- [https://www.thefatrat.com/](thefatrat.com)
- [https://f-z.cz/](Filip Znachor)`
+Moje inspiracia: 
+ [incompetech.com](https://incompetech.com/music/royalty-free/music.html)
+ [thefatrat.com](https://www.thefatrat.com/)
+ [`Filip Znachor`](https://f-z.cz/)
 
 
 ---
