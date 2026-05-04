@@ -39,10 +39,10 @@ _Shrnutí všech odkazů na jednom místě. Průběžně aktualizujte._
 
 | Výstup | Odkaz |
 |---|---|
-| GitHub Pages (live) | [`Doplň odkaz`](#) |
+| GitHub Pages (live) | [`Za rohem`](#) |
 | Grafický manuál (Figma / Canva) | [`Již brzy`](#) |
-| Grafický návrh webu (Figma) | [`[FIGMA]`]((https://www.figma.com/design/98TS964aiMU6INuBdVLD2q/Sedl%C3%A1%C5%99Roman-TheRainShark-Portfolio?node-id=0-1&t=Q5tVxKPjva1S5RpN-1)) |
-| Fotografie / média | [`Doplň odkaz`](#) |
+| Grafický návrh webu (Figma) | [`FIGMA`](https://www.figma.com/design/98TS964aiMU6INuBdVLD2q/Sedl%C3%A1%C5%99Roman-TheRainShark-Portfolio?node-id=0-1&t=Q5tVxKPjva1S5RpN-1) |
+| Fotografie / média | [`Opravdu brzy`](#) |
 
 ---
 
