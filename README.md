@@ -41,7 +41,7 @@ _Shrnutí všech odkazů na jednom místě. Průběžně aktualizujte._
 |---|---|
 | GitHub Pages (live) | [`Doplň odkaz`](#) |
 | Grafický manuál (Figma / Canva) | [`Již brzy`](#) |
-| Grafický návrh webu (Figma) | [`[FIGMA]`](https://www.figma.com/design/D6fSvLBAyptDA2pqgEOLBu/TheRainShark-design?node-id=0-1&t=tj17cm2Oxjo2YCQk-1) |
+| Grafický návrh webu (Figma) | [`[FIGMA]`]((https://www.figma.com/design/98TS964aiMU6INuBdVLD2q/Sedl%C3%A1%C5%99Roman-TheRainShark-Portfolio?node-id=0-1&t=Q5tVxKPjva1S5RpN-1)) |
 | Fotografie / média | [`Doplň odkaz`](#) |
 
 ---
