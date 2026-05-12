@@ -40,8 +40,8 @@ _Shrnutí všech odkazů na jednom místě. Průběžně aktualizujte._
 | Výstup | Odkaz |
 |---|---|
 | GitHub Pages (live) | [`Za rohem`](#) |
-| Grafický manuál (Figma / Canva) | [`Již brzy`](#) |
-| Grafický návrh webu (Figma) | [`FIGMA`](https://www.figma.com/design/98TS964aiMU6INuBdVLD2q/Sedl%C3%A1%C5%99Roman-TheRainShark-Portfolio?node-id=0-1&t=Q5tVxKPjva1S5RpN-1) |
+| Grafický manuál (Figma / Canva) | [`Design`](https://www.figma.com/design/98TS964aiMU6INuBdVLD2q/Sedl%C3%A1%C5%99Roman-TheRainShark-Portfolio?node-id=0-1&t=OqKzTWe66Wb6MKp1-1) |
+| Grafický návrh webu (Figma) | [`Figma, mobile and PC design`](https://www.figma.com/design/98TS964aiMU6INuBdVLD2q/Sedl%C3%A1%C5%99Roman-TheRainShark-Portfolio?node-id=9-2&t=OqKzTWe66Wb6MKp1-1) |
 | Fotografie / média | [`Opravdu brzy`](#) |
 
 ---
