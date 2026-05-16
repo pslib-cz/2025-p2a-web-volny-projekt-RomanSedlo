@@ -1,0 +1,18 @@
+:root {
+  background-color: darkcyan;
+}
+p {
+  background-color: darkblue;
+  color: aquamarine;
+  padding: 8px;
+  border-radius: 2px;
+}
+a {
+  padding: 8px;
+}
+a:hover {
+  color: black;
+  background-color: aqua;
+  padding: 8px;
+  border-radius: 2px;
+}
