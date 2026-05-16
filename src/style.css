@@ -9,6 +9,7 @@ p {
 }
 a {
   padding: 8px;
+  color: midnightblue;
 }
 a:hover {
   color: black;
