@@ -22,10 +22,14 @@ a {
   padding: 12px;
   color: black;
   margin: 4px;
-  font-weight: 500;
+  font-weight: 600;
 }
 a:hover {
   color: var(--secondary);
   background-color: var(--primary);
   border-radius: 2px;
+}
+p {
+  margin-top: 12em;
+  color: white;
 }
