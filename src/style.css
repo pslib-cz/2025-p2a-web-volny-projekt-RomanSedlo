@@ -1,19 +1,25 @@
 :root {
   background-color: darkcyan;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  font-size: large;
 }
-p {
+h1 {
   background-color: darkblue;
+  box-shadow: darkblue 0 0 1em;
   color: aquamarine;
-  padding: 8px;
+  padding: 12px;
   border-radius: 2px;
+  margin-inline: 2em;
+  margin-bottom: 1em;
 }
 a {
-  padding: 8px;
+  padding: 12px;
   color: midnightblue;
+  margin: 4px;
 }
 a:hover {
   color: black;
   background-color: aqua;
-  padding: 8px;
   border-radius: 2px;
 }
