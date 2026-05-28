@@ -14,19 +14,113 @@
     --text-muted: rgba(255, 255, 255, 63);
     --playbutton: rgba(255, 255, 255, 73);
     --playbutton: rgba(0, 0, 0, 73);
+    --shadow: rgba(0, 0, 0, 0.50);
+    --shadow-lighter: rgba(0, 0, 0, 0.25);
 
     font-family: "Instrument sans", sans-serif;
+    text-align: center;
+}
+
+body {
+    background-color: var(--secondary-bg);
+    margin: 0;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding: 4rem 2rem;
+    align-content: space-around;
+}
+section {
+    padding: 4rem 2rem;
+}
+.area {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--primary-bg);
+    gap: 20px;
+    padding: 32px;
 }
 
 h1 {
     color: var(--primary);
     font-weight: 700;
+    font-size: 32px;
+    text-shadow: var(--primary) 0 0 4px;
+    margin: 0;
 }
 h2 {
     color: var(--secondary);
-    font-weight: 600;
+    font-weight: 700;
+    font-size: 28px;
+    text-align: start;
+    margin: 0;
 }
 p {
     color: var(--secondary);
     font-weight: 500;
+    font-size: 24px;
+    margin: 0;
+}
+figure, ul {
+    margin: 0;
+    padding: 0;
+}
+
+.button {
+    display: inline-block;
+    background-color: var(--primary);
+    color: var(--bw-bg);
+    font-size: 28px;
+    font-weight: 700;
+    padding: 12px 2rem;
+    border-radius: .5em;
+    text-decoration: none;
+    box-shadow: var(--primary) 0 0 4px;
+}
+.button:hover {
+    background-color: var(--bw-text);
+    color: var(--bw-bg);
+    box-shadow: var(--shadow) 0 0 8px;
+}
+.button:active {
+    background-color: var(--bw-bg);
+    color: var(--bw-text);
+    box-shadow: 0 0 0 0;
+}
+
+.card {
+    width: 290px;
+    height: 410px; /* dočasné rozměry, pak nastavím gird a subgrid */
+    background-color: var(--primary-muted);
+    border-radius: .5em;
+    box-shadow: var(--shadow-lighter) 0 0 8px;
+}
+
+.special {
+    font-family: "Indie Flower";
+    font-weight: 300;
+}
+.h1__special {
+    display: block;
+    margin-top: -8px;
+    font-size: 20px;
+}
+
+#portfolio {
+    align-items: center;
+}
+#portfolio h2 {
+    text-align: center;
+}
+
+#offer {
+    gap: 20px; /* zjistit proč nefunguje */
+}
+#offer ul {
+    list-style: "✓ ";
+    text-align: start;
+    font-weight: 600;
+    list-style-position: inside;
 }

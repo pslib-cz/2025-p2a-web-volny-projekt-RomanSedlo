@@ -37,3 +37,5 @@ Moje inspiracia:
 ## Poznámky
 
 _Prostor pro vlastní poznámky, zpětnou vazbu, TODO apod._
+
+button má speciální particly při hoveru které mají barvu textu a při active taky, jenom se zastaví nebo nějáká akce se změní prostě.
