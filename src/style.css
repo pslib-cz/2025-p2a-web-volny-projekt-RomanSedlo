@@ -2,34 +2,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 
 :root {
-  background-color: darkcyan;
-  font-family: "Instrument sans", sans-serif; 
-  text-align: center;
-  font-size: large;
-  --primary: aquamarine;
-  --secondary: darkblue;
+    --primary: light-dark(#026570, #72B8B5);
+    --secondary: light-dark(#031C54, #ABE0F6);
+    --primary-bg: light-dark(#72B8B5, #014148);
+    --secondary-bg: light-dark(#ABE0F6, #021745);
+    --primary-muted: light-dark(#49999B, #135459);
+    --secondary-muted: light-dark(#9ACCE6, #142F64);
+    --bw-text: light-dark(#000, #fff);
+    --bw-bg: light-dark(#fff, #000);
+    --card-title: #fff;
+    --text-muted: rgba(255, 255, 255, 63);
+    --playbutton: rgba(255, 255, 255, 73);
+    --playbutton: rgba(0, 0, 0, 73);
+
+    font-family: "Instrument sans", sans-serif;
 }
+
 h1 {
-  background-color: var(--secondary);
-  box-shadow: var(--secondary) 0 0 1em;
-  color: var(--primary);
-  padding: 12px;
-  border-radius: 2px;
-  margin-inline: 2em;
-  margin-bottom: 1em;
+    color: var(--primary);
+    font-weight: 700;
 }
-a {
-  padding: 12px;
-  color: black;
-  margin: 4px;
-  font-weight: 600;
-}
-a:hover {
-  color: var(--secondary);
-  background-color: var(--primary);
-  border-radius: 2px;
+h2 {
+    color: var(--secondary);
+    font-weight: 600;
 }
 p {
-  margin-top: 12em;
-  color: white;
+    color: var(--secondary);
+    font-weight: 500;
 }
