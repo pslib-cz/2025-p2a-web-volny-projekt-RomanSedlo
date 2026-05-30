@@ -11,7 +11,7 @@
     --bw-text: light-dark(#000, #fff);
     --bw-bg: light-dark(#fff, #000);
     --card-title: #fff;
-    --text-muted: rgba(255, 255, 255, 63);
+    --text-muted: rgba(255, 255, 255, 0.63);
     --playbutton: rgba(255, 255, 255, 73);
     --playbutton: rgba(0, 0, 0, 73);
     --shadow: rgba(0, 0, 0, 0.50);
@@ -73,6 +73,28 @@ figure, ul {
     margin: 0;
     padding: 0;
 }
+blockquote {
+    color: var(--secondary);
+    font-size: 24px;
+    font-weight: 600;
+    quotes: none;
+    position: relative;
+    z-index: 1;
+    margin: 0;
+    margin-left: 32px;
+}
+blockquote::before {
+    content: "”";
+    position: absolute;
+    color: var(--primary-muted);
+    font-size: 128px;
+    top: -44px;
+    left: -32px;
+    z-index: -1;
+}
+img {
+    object-fit: cover;
+}
 
 .button {
     display: inline-block;
@@ -97,11 +119,27 @@ figure, ul {
 }
 
 .card {
+    display: flex;
+    flex-direction: column;
     width: 290px;
     height: 410px; /* dočasné rozměry, pak nastavím gird a subgrid */
     background-color: var(--primary-muted);
     border-radius: .5em;
     box-shadow: var(--shadow-lighter) 0 0 8px;
+    padding: 20px;
+}
+.card img {
+    border-radius: 1em;
+}
+.card figcaption {
+    text-align: left;
+    align-self: stretch;
+}
+.card__title {
+    color: var(--card-title);
+}
+.card__album {
+    color: var(--text-muted);
 }
 
 .special {
@@ -114,6 +152,21 @@ figure, ul {
     font-size: 20px;
 }
 
+
+
+.quote {
+    text-align: left;
+}
+.author {
+    color: var(--bw-text);
+    font-size: 16px;
+    font-style: italic;
+    text-align: center;
+}
+.author::before {
+    content: "- ";
+}
+
 #portfolio {
     align-items: center;
 }
@@ -121,9 +174,6 @@ figure, ul {
     text-align: center;
 }
 
-#offer {
-    gap: 20px; /* zjistit proč nefunguje */
-}
 #offer ul {
     list-style: "✓ ";
     text-align: start;
