@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>TheRainShark Portfolio</title>
+  <title>TheRainShark</title><!-- Home | TheRainShark -->
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -32,13 +32,18 @@
   <main>
     <section id="portfolio" class="area">
       <h2>Portfolio</h2>
-      <figure class="card"> <!-- swiper -->
-        <img src="https://placehold.co/320" alt="placeholder">
-        <figcaption>
-          <p class="card__title">Alignment Accuracy</p>
-          <p class="card__album">Nightmare Worlds</p>
-        </figcaption>
-      </figure>
+      <div class="cards">
+        <figure class="card"> <!-- swiper -->
+          <div class="card__cover">
+            <img src="https://placehold.co/320" class="card__img" alt="placeholder">
+            <img src="/public/icons/play-btn.svg" class="card__player" alt="play button">
+          </div>
+          <figcaption>
+            <p class="card__title">Alignment Accuracy</p>
+            <p class="card__album">Nightmare Worlds</p>
+          </figcaption>
+        </figure>
+      </div>
       <div>
         <a href="#" class="button">View full portfolio</a>
       </div>

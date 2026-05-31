@@ -12,10 +12,9 @@
     --bw-bg: light-dark(#fff, #000);
     --card-title: #fff;
     --text-muted: rgba(255, 255, 255, 0.63);
-    --playbutton: rgba(255, 255, 255, 73);
-    --playbutton: rgba(0, 0, 0, 73);
-    --shadow: rgba(0, 0, 0, 0.50);
-    --shadow-lighter: rgba(0, 0, 0, 0.25);
+
+    --shadow: rgba(0, 0, 0, 0.50) 0 0 8px;
+    --shadow-lighter: rgba(0, 0, 0, 0.25) 0 0 8px;
 
     font-family: "Instrument sans", sans-serif;
     text-align: center;
@@ -101,7 +100,7 @@ img {
     background-color: var(--primary);
     color: var(--bw-bg);
     font-size: 28px;
-    font-weight: 700;
+    font-weight: 650;
     padding: 12px 2rem;
     border-radius: .5em;
     text-decoration: none;
@@ -110,7 +109,7 @@ img {
 .button:hover {
     background-color: var(--bw-text);
     color: var(--bw-bg);
-    box-shadow: var(--shadow) 0 0 8px;
+    box-shadow: var(--shadow);
 }
 .button:active {
     background-color: var(--bw-bg);
@@ -121,25 +120,50 @@ img {
 .card {
     display: flex;
     flex-direction: column;
-    width: 290px;
-    height: 410px; /* dočasné rozměry, pak nastavím gird a subgrid */
     background-color: var(--primary-muted);
     border-radius: .5em;
-    box-shadow: var(--shadow-lighter) 0 0 8px;
+    box-shadow: var(--shadow-lighter);
     padding: 20px;
+    gap: 8px;
 }
-.card img {
+.card__cover {
+    position: relative;
+}
+.card__img {
+    display: block;
+    width: 100%;
+    height: auto;
     border-radius: 1em;
 }
 .card figcaption {
     text-align: left;
     align-self: stretch;
 }
+.card__player {
+    width: 24px;
+    height: auto;
+    filter: invert(100%) opacity(73%);
+    position: absolute;
+    translate: -50% -50%;
+    left: 50%;
+    top: 50%;
+    background-color: white;
+    border-radius: 50%;
+    overflow: visible;
+    padding: 1em;
+}
+.card__player:active {
+    content: url(/public/icons/pause-btn.svg);
+}
 .card__title {
     color: var(--card-title);
+    font-size: 32px;
+    font-weight: 550;
+    line-height: 36px;
 }
 .card__album {
     color: var(--text-muted);
+    font-size: 25px;
 }
 
 .special {
