@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 
 :root {
+    color-scheme: light; /*dark*/
+
     --primary: light-dark(#026570, #72B8B5);
     --secondary: light-dark(#031C54, #ABE0F6);
     --primary-bg: light-dark(#72B8B5, #014148);
@@ -30,6 +32,9 @@ header {
     gap: 3rem;
     padding: 4rem 2rem;
     align-content: space-around;
+}
+footer {
+    background-color: var(--primary-bg);
 }
 section {
     padding: 4rem 2rem;
@@ -153,7 +158,7 @@ img {
     padding: 1em;
 }
 .card__player:active {
-    content: url(/public/icons/pause-btn.svg);
+    content: url(/icons/pause-btn.svg);
 }
 .card__title {
     color: var(--card-title);
@@ -189,6 +194,34 @@ img {
 }
 .author::before {
     content: "- ";
+}
+
+.footer__head {
+    display: flex;
+    justify-content: space-between;
+}
+.footer__logo {
+    
+}
+.footer__logo--text {
+    display: inline;
+    margin: 0;
+    padding: 0;
+    color: var(--primary);
+}
+.socials {
+    display: flex;
+    gap: 2px;
+    color: var(--primary);
+    list-style: none;
+}
+.navigation {
+    font-weight: 600;
+    text-decoration: underline;
+    list-style: none;
+}
+.footer__copyright {
+    color: var(--primary);
 }
 
 #portfolio {
