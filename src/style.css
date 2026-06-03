@@ -18,6 +18,8 @@
     --shadow: rgba(0, 0, 0, 0.50) 0 0 8px;
     --shadow-lighter: rgba(0, 0, 0, 0.25) 0 0 8px;
 
+    --nav-height: 60px;
+
     font-family: "Instrument sans", sans-serif;
     text-align: center;
 }
@@ -25,6 +27,15 @@
 body {
     background-color: var(--secondary-bg);
     margin: 0;
+}
+nav {
+    position: sticky;
+    box-sizing: border-box;
+    width: 100%;
+    top: 0;
+    padding: 10px 16px;
+    background-color: var(--primary-bg);
+    z-index: 9;
 }
 header {
     display: flex;
@@ -34,7 +45,11 @@ header {
     align-content: space-around;
 }
 footer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* na PC 8px */
     background-color: var(--primary-bg);
+    padding: 16px;
 }
 section {
     padding: 4rem 2rem;
@@ -74,6 +89,11 @@ p {
     margin: 0;
 }
 figure, ul {
+    margin: 0;
+    padding: 0;
+}
+menu {
+    list-style: none;
     margin: 0;
     padding: 0;
 }
@@ -181,8 +201,6 @@ img {
     font-size: 20px;
 }
 
-
-
 .quote {
     text-align: left;
 }
@@ -196,32 +214,79 @@ img {
     content: "- ";
 }
 
+.logo {
+    display: flex;
+    max-height: var(--nav-height);
+    align-items: center;
+}
+.breakline {
+    position: absolute;
+    margin: 0;
+    left: 0;
+    top: calc(var(--nav-height) - 1px);
+    width: 100%;
+    height: 1px;
+    background-color: var(--secondary-bg);
+}
+.navigation a {
+    font-weight: 650;
+    text-decoration: underline;
+    font-size: 16px;
+    color: var(--secondary);
+}
+.navigation a:hover {
+    background-color: var(--secondary-muted);
+}
+.navigation a:active {
+    background-color: var(--secondary-bg);
+}
+
+.nav--primary {
+    display: none;
+}
+.nav__logo {
+    gap: 10px;
+    
+}
+.nav__logo--icon {
+    width: 32px;
+    height: auto;
+}
+.nav__logo--text {
+    font-weight: 700;
+    color: var(--primary);
+}
+
 .footer__head {
     display: flex;
     justify-content: space-between;
+    padding: 0 32px;
 }
 .footer__logo {
-    
+    gap: 8px;
+}
+.footer__logo--icon {
+    width: 24px;
+    height: auto;
 }
 .footer__logo--text {
     display: inline;
     margin: 0;
     padding: 0;
     color: var(--primary);
+    font-size: 16px;
+    font-weight: 600;
 }
 .socials {
     display: flex;
     gap: 2px;
+    align-items: center;
     color: var(--primary);
-    list-style: none;
-}
-.navigation {
-    font-weight: 600;
-    text-decoration: underline;
     list-style: none;
 }
 .footer__copyright {
     color: var(--primary);
+    font-size: 12px;
 }
 
 #portfolio {
