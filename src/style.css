@@ -33,7 +33,7 @@ nav {
     box-sizing: border-box;
     width: 100%;
     top: 0;
-    padding: 10px 16px;
+    padding: 0 16px;
     background-color: var(--primary-bg);
     z-index: 9;
 }
@@ -43,6 +43,7 @@ header {
     gap: 3rem;
     padding: 4rem 2rem;
     align-content: space-around;
+    scroll-margin-top: var(--nav-height);
 }
 footer {
     display: flex;
@@ -126,7 +127,7 @@ img {
     color: var(--bw-bg);
     font-size: 28px;
     font-weight: 650;
-    padding: 12px 2rem;
+    padding: 12px 1.4rem;
     border-radius: .5em;
     text-decoration: none;
     box-shadow: var(--primary) 0 0 4px;
@@ -241,8 +242,23 @@ img {
     background-color: var(--secondary-bg);
 }
 
+
+.nav__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-height: var(--nav-height);
+}
 .nav--primary {
     display: none;
+    position: absolute;
+    width: 100%;
+    background-color: var(--primary-bg);
+    left: 0;
+    padding: 8px 0;
+}
+.visible {
+    display: block;
 }
 .nav__logo {
     gap: 10px;
@@ -251,6 +267,7 @@ img {
 .nav__logo--icon {
     width: 32px;
     height: auto;
+    color: var(--primary);
 }
 .nav__logo--text {
     font-weight: 700;
@@ -269,6 +286,22 @@ img {
     width: 24px;
     height: auto;
 }
+.social {
+    display: block;
+    background-color: var(--primary);
+    -webkit-mask-size: contain; mask-size: contain;
+    -webkit-mask-repeat: no-repeat;mask-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+}
+.social:hover {
+    background-color: var(--secondary-bg);
+}
+.social--linkedin { -webkit-mask-image: url(/icons/linkedin.svg); mask-image: url(/icons/linkedin.svg); }
+.social--instagram { -webkit-mask-image: url(/icons/instagram.svg); mask-image: url(/icons/instagram.svg); }
+.social--spotify { -webkit-mask-image: url(/icons/spotify.svg); mask-image: url(/icons/spotify.svg); }
+.social--youtube { -webkit-mask-image: url(/icons/youtube.svg); mask-image: url(/icons/youtube.svg); }
+
 .footer__logo--text {
     display: inline;
     margin: 0;
@@ -303,4 +336,8 @@ img {
     font-size: 24px;
     color: var(--secondary);
     list-style-position: inside;
+}
+
+#about-me {
+    scroll-margin-top: var(--nav-height);
 }
