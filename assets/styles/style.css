@@ -31,7 +31,6 @@ body {
 nav {
     position: sticky;
     box-sizing: border-box;
-    width: 100%;
     top: 0;
     padding: 0 16px;
     background-color: var(--primary-bg);
@@ -48,9 +47,9 @@ header {
 footer {
     display: flex;
     flex-direction: column;
-    gap: 10px; /* na PC 8px */
+    gap: 8px;
     background-color: var(--primary-bg);
-    padding: 16px;
+    padding: 16px 0;
 }
 section {
     padding: 4rem 2rem;
@@ -224,8 +223,8 @@ img {
     position: absolute;
     margin: 0;
     left: 0;
+    right: 0;
     top: calc(var(--nav-height) - 1px);
-    width: 100%;
     height: 1px;
     background-color: var(--secondary-bg);
 }
@@ -272,6 +271,22 @@ img {
 .nav__logo--text {
     font-weight: 700;
     color: var(--primary);
+}
+.menu__button {
+    transform: rotate(90deg); /*dočasně*/
+    font-size: 16px;
+    padding: 8px;
+    background-color: var(--primary-muted);
+    border: none;
+}
+.menu__button:hover {
+    background-color: var(--secondary-bg);
+}
+.menu__button:active {
+    background-color: var(--primary-muted);
+}
+.menu__button--visible {
+    background-color: var(--secondary-muted);
 }
 
 .footer__head {
@@ -320,6 +335,7 @@ img {
 .footer__copyright {
     color: var(--primary);
     font-size: 12px;
+    margin-top: 8px;
 }
 
 #portfolio {
