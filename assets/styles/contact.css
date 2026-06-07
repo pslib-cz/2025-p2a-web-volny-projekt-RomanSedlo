@@ -48,11 +48,11 @@ legend {
     padding: 0 2px;
     margin-left: 8px;
 }
-input {
+input,textarea {
     display: inline-block;
     box-sizing: border-box;
     position: relative;
-    font-size: 20px;
+    font-size: 18px;
     font-family: "Instrument sans", sans-serif;
     color: var(--bw-text);
     background-color: transparent;
@@ -63,16 +63,20 @@ input {
     margin-bottom: 4px;
     margin-left: 8px;
 }
-input::placeholder {
+input::placeholder, textarea::placeholder {
     color: var(--primary-muted);
     font-size: 16px;
 }
-input:focus {
+input:focus, textarea:focus {
     outline: none;
 }
 button[type="submit"] {
     width: max-content;
     padding-inline: 1em;
+}
+textarea {
+    max-width: fit-content;
+    min-width: max-content;
 }
 
 .contacts {
@@ -90,8 +94,4 @@ button[type="submit"] {
     align-self: stretch;
     padding: 0 8px;
     border-radius: 25em;
-}
-
-#message {
-    /* více řádků*/
 }
