@@ -283,6 +283,7 @@ img {
     padding: 8px;
     background-color: var(--primary-muted);
     border: none;
+    border-radius: 4px;
 }
 .menu__button:hover {
     background-color: var(--secondary-bg);
