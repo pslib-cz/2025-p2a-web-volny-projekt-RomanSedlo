@@ -179,7 +179,7 @@ img {
     padding: 1em;
 }
 .card__player:active {
-    content: url(/assets/icons/pause-btn.svg);
+    content: url(../icons/pause-btn.svg);
 }
 .card__title {
     color: var(--card-title);
@@ -318,10 +318,10 @@ img {
 .social:hover {
     background-color: var(--secondary);
 }
-.social--linkedin { -webkit-mask-image: url(/assets/icons/linkedin.svg); mask-image: url(/assets/icons/linkedin.svg); }
-.social--instagram { -webkit-mask-image: url(/assets/icons/instagram.svg); mask-image: url(/assets/icons/instagram.svg); }
-.social--spotify { -webkit-mask-image: url(/assets/icons/spotify.svg); mask-image: url(/assets/icons/spotify.svg); }
-.social--youtube { -webkit-mask-image: url(/assets/icons/youtube.svg); mask-image: url(/assets/icons/youtube.svg); }
+.social--linkedin { -webkit-mask-image: url(../icons/linkedin.svg); mask-image: url(../icons/linkedin.svg); }
+.social--instagram { -webkit-mask-image: url(../icons/instagram.svg); mask-image: url(../icons/instagram.svg); }
+.social--spotify { -webkit-mask-image: url(../icons/spotify.svg); mask-image: url(../icons/spotify.svg); }
+.social--youtube { -webkit-mask-image: url(../icons/youtube.svg); mask-image: url(../icons/youtube.svg); }
 
 .footer__logo--text {
     display: inline;
