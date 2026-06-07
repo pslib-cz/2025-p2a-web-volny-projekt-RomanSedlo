@@ -21,17 +21,19 @@
     text-align: center;
 }
 
+.contacts {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 .contact-list {
     list-style-type: none;
     text-align: start;
-    padding-left: 1em;
+    padding-left: .5em;
 }
-.design-line { /*neni hotove*/
-    position: relative;
-    height: max-content; 
+.design-line {
     background-color: var(--primary-muted);
-    padding: 10px 8px;
+    align-self: stretch;
+    padding: 0 8px;
     border-radius: 25em;
-    top: 2em;
-    left: 0;
 }
