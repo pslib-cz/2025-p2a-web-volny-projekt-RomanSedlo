@@ -70,7 +70,7 @@ input::placeholder {
 input:focus {
     outline: none;
 }
-button {
+button[type="submit"] {
     width: max-content;
     padding-inline: 1em;
 }

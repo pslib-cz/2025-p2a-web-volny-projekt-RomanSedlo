@@ -120,7 +120,7 @@ img {
     object-fit: cover;
 }
 
-.button, button {
+.button, button[type="submit"] {
     display: inline-block;
     background-color: var(--primary);
     color: var(--bw-bg);
@@ -132,12 +132,12 @@ img {
     text-decoration: none;
     box-shadow: var(--primary) 0 0 4px;
 }
-.button:hover, button:hover {
+.button:hover, button[type="submit"]:hover {
     background-color: var(--bw-text);
     color: var(--bw-bg);
     box-shadow: var(--shadow);
 }
-.button:active, button:active {
+.button:active, button[type="submit"]:active {
     background-color: var(--bw-bg);
     color: var(--bw-text);
     box-shadow: 0 0 0 0;
