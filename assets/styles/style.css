@@ -120,7 +120,7 @@ img {
     object-fit: cover;
 }
 
-.button {
+.button, button {
     display: inline-block;
     background-color: var(--primary);
     color: var(--bw-bg);
@@ -128,15 +128,16 @@ img {
     font-weight: 650;
     padding: 12px 1.4rem;
     border-radius: .5em;
+    border: 0;
     text-decoration: none;
     box-shadow: var(--primary) 0 0 4px;
 }
-.button:hover {
+.button:hover, button:hover {
     background-color: var(--bw-text);
     color: var(--bw-bg);
     box-shadow: var(--shadow);
 }
-.button:active {
+.button:active, button:active {
     background-color: var(--bw-bg);
     color: var(--bw-text);
     box-shadow: 0 0 0 0;

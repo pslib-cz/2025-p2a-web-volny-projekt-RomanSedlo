@@ -11,8 +11,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
   <link rel="shortcut icon" href="/public/logos/therainshark-eye-icon_logo.png" type="image/x-icon">
 
-  <link rel="stylesheet" href="/assets/styles/style.css">
-  <link rel="stylesheet" href="/assets/styles/contact.css">
+  <link rel="stylesheet" href="../assets/styles/style.css">
+  <link rel="stylesheet" href="../assets/styles/contact.css">
 </head>
 
 <body>
@@ -50,9 +50,36 @@
             </div>
             
         </section>
+
+        <section class="part">
+            <h2>Write me</h2>
+            <form action="#">
+                <fieldset>
+                    <legend for="name">First Name</legend>
+                    <input type="text" name="name" id="name" placeholder="Enter your name here...">
+                </fieldset>
+                <fieldset>
+                    <legend for="surname">Second Name</legend>
+                    <input type="text" name="surname" id="surname" placeholder="Your surename here...">
+                </fieldset>
+                <fieldset>
+                    <legend for="email">Email</legend>
+                    <input type="email" name="email" id="email" placeholder="Enter your email here...">
+                </fieldset>
+                <fieldset>
+                    <legend for="topic">Topic</legend>
+                    <input type="text" name="topic" id="topic" placeholder="Enter the topic here...">
+                </fieldset>
+                <fieldset>
+                    <legend for="message">Message</legend>
+                    <input type="text" name="message" id="message" placeholder="Write your message here...">
+                </fieldset>
+                <button type="submit">Send</button>
+            </form>
+        </section>
     </main>
 
     <footer id="footer"></footer>
 
-    <script type="module" src="/assets/main.js"></script>
+    <script type="module" src="../assets/main.js"></script>
 </body>
