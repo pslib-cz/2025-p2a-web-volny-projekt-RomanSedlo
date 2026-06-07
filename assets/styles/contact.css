@@ -1,26 +1,3 @@
-:root { /* odstranit na konci - bere z style.css */
-    color-scheme: light; /*dark*/
-
-    --primary: light-dark(#026570, #72B8B5);
-    --secondary: light-dark(#031C54, #ABE0F6);
-    --primary-bg: light-dark(#72B8B5, #014148);
-    --secondary-bg: light-dark(#ABE0F6, #021745);
-    --primary-muted: light-dark(#49999B, #135459);
-    --secondary-muted: light-dark(#9ACCE6, #142F64);
-    --bw-text: light-dark(#000, #fff);
-    --bw-bg: light-dark(#fff, #000);
-    --card-title: #fff;
-    --text-muted: rgba(255, 255, 255, 0.63);
-
-    --shadow: rgba(0, 0, 0, 0.50) 0 0 8px;
-    --shadow-lighter: rgba(0, 0, 0, 0.25) 0 0 8px;
-
-    --nav-height: 60px;
-
-    font-family: "Instrument sans", sans-serif;
-    text-align: center;
-}
-
 form {
     display: grid;
     gap: 1em;
@@ -73,6 +50,7 @@ input:focus, textarea:focus {
 button[type="submit"] {
     width: max-content;
     padding-inline: 1em;
+    font-family: "Instrument sans", sans-serif;
 }
 textarea {
     resize: vertical;
