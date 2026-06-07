@@ -5,8 +5,8 @@ async function loadComponent(selector, path) {
     document.querySelector(selector).innerHTML = html;
 }
 if (document.querySelector('#navbar') || document.querySelector('#footer')) {
-    await loadComponent('#navbar', '/assets/components/navbar.html');
-    await loadComponent('#footer', '/assets/components/footer.html');
+    await loadComponent('#navbar', base + 'assets/components/navbar.html');
+    await loadComponent('#footer', base + 'assets/components/footer.html');
 }
 
 document.querySelector(".menu__button").addEventListener('click', () => {
