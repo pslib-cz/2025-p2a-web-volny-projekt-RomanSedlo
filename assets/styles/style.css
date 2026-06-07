@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 
+/* tahle verze je mainly pro mobil ale částečně funguje na PC*/
+
 :root {
     color-scheme: light; /*dark*/
 
@@ -37,7 +39,7 @@ nav {
     z-index: 9;
 }
 header {
-    display: flex;
+    display: flex; /*bude grid*/
     flex-direction: column;
     gap: 3rem;
     padding: 4rem 2rem;
@@ -55,7 +57,7 @@ section {
     padding: 4rem 2rem;
 }
 .area {
-    display: flex;
+    display: flex; /*bude grid na about-me*/
     flex-direction: column;
     background-color: var(--primary-bg);
     gap: 20px;
@@ -362,4 +364,56 @@ img {
 
 #about-me {
     scroll-margin-top: var(--nav-height);
+}
+
+
+@media (min-width: 768px) {
+    section {
+        padding: 8rem 4rem;
+    }
+    .area {
+        gap: 32px;
+        padding: 64px;
+    }
+    .part {
+
+        gap: 40px;
+        padding: 128px 64px;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .menu__button {
+        display: none;
+    }
+    .navigation {
+        display: flex;
+        flex-direction: row;
+        column-gap: 1em;
+        align-items: center;
+    }
+    .nav--primary {
+        position: static;
+        -webkit-backdrop-filter: none;
+        backdrop-filter: none;
+        box-shadow: none;
+    }
+    .nav--secondary {
+        justify-content: center;
+    }
+}
+@media (min-width: 1240px) {
+    .area {
+        gap: 32px;
+        padding: 128px 512px;
+    }
+    .part {
+        gap: 48px;
+        padding: 128px 256px;
+        max-width: 800px;
+        justify-self: center;
+    }
 }

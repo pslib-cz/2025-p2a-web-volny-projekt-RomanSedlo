@@ -72,3 +72,9 @@ textarea {
     padding: 0 8px;
     border-radius: 25em;
 }
+
+@media (min-width: 768px) {
+    .part {
+        width: 700px;
+    }
+}
