@@ -219,7 +219,7 @@ img {
 
 .logo {
     display: flex;
-    max-height: var(--nav-height);
+    height: var(--nav-height);
     align-items: center;
 }
 .breakline {
