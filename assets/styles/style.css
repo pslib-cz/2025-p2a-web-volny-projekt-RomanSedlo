@@ -193,6 +193,10 @@ img {
     color: var(--text-muted);
     font-size: 25px;
 }
+.swiper-slide {
+        width: auto;
+    height: auto;
+}
 
 .special {
     font-family: "Indie Flower";
@@ -280,15 +284,18 @@ img {
     color: var(--primary);
 }
 .menu__button {
+    color: var(--secondary);
     transform: rotate(90deg); /*dočasně*/
-    font-size: 16px;
+    font-size: 18px;
     padding: 8px;
     background-color: var(--primary-muted);
     border: none;
     border-radius: 4px;
+    box-shadow: inset var(--primary) 0 0 4px;
 }
 .menu__button:hover {
     background-color: var(--secondary-bg);
+    box-shadow: var(--primary) 0 0 4px;
 }
 .menu__button:active {
     background-color: var(--primary-muted);

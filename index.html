@@ -11,9 +11,10 @@
   <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
   <link rel="shortcut icon" href="./assets/logos/therainshark-eye-icon_logo.png" type="image/x-icon">
   <link rel="stylesheet" href="./assets/styles/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
 </head>
 
-<body>
+<body> <!-- nezapomeň vole linknout novej grafickej manuál do readme!!! -->
   <nav>
     <div class="nav__top">
       <div class="logo nav__logo">
@@ -23,7 +24,6 @@
       <button class="menu__button">|||</button>
     </div>
     
-
     <menu class="navigation nav--primary">
       <li><a href="./#home">Home</a></li>
         <li><a href="./pages/portfolio.html">Portfolio</a></li>
@@ -51,22 +51,41 @@
   <main>
     <section id="portfolio" class="area">
       <h2>Portfolio</h2>
-      <div class="cards">
-        <figure class="card"> <!-- swiper -->
-          <div class="card__cover">
-            <img src="https://placehold.co/320" class="card__img" alt="album cover">
-            <img src="./assets/icons/play-btn.svg" class="card__player" alt="play button">
+      <div class="swiper">
+        <div class="cards swiper-wrapper">
+          <div class="swiper-slide">
+            <figure class="card"> <!-- swiper -->
+              <div class="card__cover">
+                <img src="https://placehold.co/320" class="card__img" alt="album cover">
+                <img src="./assets/icons/play-btn.svg" class="card__player" alt="play button">
+              </div>
+              <figcaption>
+                <p class="card__title">Alignment Accuracy</p>
+                <p class="card__album">Nightmare Worlds</p>
+              </figcaption>
+            </figure>
           </div>
-          <figcaption>
-            <p class="card__title">Alignment Accuracy</p>
-            <p class="card__album">Nightmare Worlds</p>
-          </figcaption>
-        </figure>
+          <div class="swiper-slide">
+            <figure class="card"> <!-- swiper -->
+              <div class="card__cover">
+                <img src="https://placehold.co/320" class="card__img" alt="album cover">
+                <img src="./assets/icons/play-btn.svg" class="card__player" alt="play button">
+              </div>
+              <figcaption>
+                <p class="card__title">Alignment Accuracy</p>
+                <p class="card__album">Nightmare Worlds</p>
+              </figcaption>
+            </figure>
+          </div>
+          
+        </div>
+        <div class="swiper-pagination"></div>
       </div>
       <div>
         <a href="./pages/portfolio.html" class="button">View full portfolio</a>
       </div>
     </section>
+
     <section id="offer" class="part">
       <h2>What do i offer?</h2>
       <ul>
@@ -140,6 +159,7 @@
     
   </footer>
 
+  <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
   <script type="module" src="./assets/main.js"></script>
 </body>
 
