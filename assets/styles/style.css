@@ -372,6 +372,9 @@ img {
 
 
 @media (min-width: 768px) {
+    :root {
+        --nav-height: 70px;
+    }
     .area {
         gap: 32px;
         padding: 4em;
@@ -380,6 +383,10 @@ img {
 
         gap: 40px;
         padding: 8em 4em;
+    }
+
+    .nav__logo--text {
+        font-size: 28px;
     }
 
     nav {
@@ -407,6 +414,15 @@ img {
     }
 }
 @media (min-width: 1240px) {
+    :root {
+        --nav-height: 80px;
+    }
+    header {
+        gap: 4rem;
+        padding: 6rem 3rem;
+        align-content: space-around;
+        scroll-margin-top: var(--nav-height);
+    }
     .area {
         gap: 32px;
         padding: 128px 370px;
@@ -416,5 +432,18 @@ img {
         padding: 128px 370px;
         max-width: 800px;
         justify-self: center;
+    }
+    h1 {
+        font-size: 48px;
+    }
+    h2 {
+        font-size: 40px;
+    }
+    p {
+        font-size: 32px;
+    }
+    .h1__special {
+        font-size: 32px;
+        margin-top: -12px;
     }
 }
