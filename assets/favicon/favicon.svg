@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="350" height="350" viewBox="0 0 350 350" fill="none"><metadata><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/"><rdf:Description><dc:creator>RealFaviconGenerator</dc:creator><dc:source>https://realfavicongenerator.net</dc:source></rdf:Description></rdf:RDF></metadata><g clip-path="url(#clip0_406_15)">
+<rect width="350" height="350" rx="64" fill="#72B8B5"></rect>
+<path d="M-128.221 612.587C-4.2207 612.587 -52.8326 610.783 50.9684 612.587C252.335 612.587 261.364 604.789 252.335 459.306C183.044 470.602 -73.1678 394.66 -73.1678 394.66C-73.1678 394.66 205.328 380.182 246.196 361.548C246.196 263 233.779 121 27.7793 121C-250.221 121 -281.936 159 -281.936 287C-281.936 363.12 -281.936 445 -281.936 467.865C-284.221 559 -240.531 608.845 -245.836 666.516C-255.521 726.17 -326.985 749.777 -326.985 749.777C-326.985 749.777 -322.637 698.97 -331.244 660.265C-365.349 636.456 -429 628.195 -429 628.195C-429 628.195 -404.016 578.376 -355.357 566.717C-292.18 551.579 -238.221 612.587 -128.221 612.587Z" stroke="#026570" stroke-width="32" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+<path d="M33.7793 253C33.7793 217.654 62.4331 189 97.7793 189C133.125 189 161.779 217.654 161.779 253C161.779 288.346 133.125 317 97.7793 317C62.4331 317 33.7793 288.346 33.7793 253Z" stroke="#026570" stroke-width="32" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+</g><defs>
+<clipPath id="clip0_406_15">
+<rect width="350" height="350" rx="64" fill="white"></rect>
+</clipPath>
+</defs><style>@media (prefers-color-scheme: light) { :root { filter: none; } }
+@media (prefers-color-scheme: dark) { :root { filter: none; } }
+</style></svg>
