@@ -151,6 +151,10 @@ img {
 }
 .swiper-slide {
     height: 100%;
+    max-width: 400px;
+}
+.swiper-pagination-bullet  {
+    background-color: var(--secondary) !important;
 }
 .card {
     display: flex;
