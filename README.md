@@ -27,8 +27,8 @@ Moje inspiracia:
 
 | Výstup | Odkaz |
 |---|---|
-| GitHub Pages (live) | [` >ODKAZ NA WEB TADY< `](https://pslib-cz.github.io/2025-p2a-web-volny-projekt-RomanSedlo/) |
-| Grafický manuál (Figma / Canva) | [`Figma Design`](https://www.figma.com/design/98TS964aiMU6INuBdVLD2q/Sedl%C3%A1%C5%99Roman-TheRainShark-Portfolio?node-id=0-1&t=OqKzTWe66Wb6MKp1-1) |
+| GitHub Pages (live) | [` > ODKAZ NA WEB TADY < `](https://pslib-cz.github.io/2025-p2a-web-volny-projekt-RomanSedlo/) |
+| Grafický manuál (Figma / Canva) | [`Grafický manuál`](https://www.figma.com/proto/98TS964aiMU6INuBdVLD2q/Sedl%C3%A1%C5%99Roman-TheRainShark-Portfolio?node-id=240-468&p=f&t=TIvxPc7WjGop2MRM-0&scaling=contain&content-scaling=fixed&page-id=240%3A467) |
 | Grafický návrh webu (Figma) | [`Figma, mobile and PC design`](https://www.figma.com/design/98TS964aiMU6INuBdVLD2q/Sedl%C3%A1%C5%99Roman-TheRainShark-Portfolio?node-id=9-2&t=OqKzTWe66Wb6MKp1-1) |
 | Fotografie / média | [`Obrázky zde.`](./assets/images/) |
 
