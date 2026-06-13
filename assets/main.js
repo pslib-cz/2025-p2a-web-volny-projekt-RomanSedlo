@@ -11,3 +11,15 @@ document.querySelector(".menu__button").addEventListener('click', () => {
     document.querySelector(".nav--primary").classList.toggle("visible")
     document.querySelector(".menu__button").classList.toggle("menu__button--visible")
 })
+
+const swiper = new Swiper('.swiper', {
+  direction: 'horizontal',
+  loop: true,
+  slidesPerView: 'auto',
+  centeredSlides: true,
+  spaceBetween: 16,
+
+  pagination: {
+    el: '.swiper-pagination',
+  },
+});
