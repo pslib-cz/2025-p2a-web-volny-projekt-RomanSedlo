@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 
-/* tahle verze je mainly pro mobil ale částečně funguje na PC*/
-
 :root {
     color-scheme: light; /*dark*/
 
@@ -133,6 +131,7 @@ img {
     border: 0;
     text-decoration: none;
     box-shadow: var(--primary) 0 0 4px;
+    transition: background .6s ease-in-out;
 }
 .button:hover, button[type="submit"]:hover {
     background-color: var(--bw-text);
@@ -308,6 +307,7 @@ img {
     border: none;
     border-radius: 4px;
     box-shadow: inset var(--primary) 0 0 4px;
+    transition: background .5s, box-shadow .5s;
 }
 .menu__button:hover {
     background-color: var(--secondary-bg);
