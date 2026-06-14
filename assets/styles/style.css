@@ -146,12 +146,12 @@ img {
 }
 
 .swiper {
-    width: 90%;
+    width: 100%;
     overflow: visible !important;
 }
 .swiper-slide {
     height: 100%;
-    max-width: 400px;
+    max-width: 320px;
 }
 .swiper-pagination-bullet  {
     background-color: var(--secondary) !important;
