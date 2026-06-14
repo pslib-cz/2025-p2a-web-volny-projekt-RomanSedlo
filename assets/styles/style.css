@@ -142,6 +142,7 @@ img {
     background-color: var(--bw-bg);
     color: var(--bw-text);
     box-shadow: 0 0 0 0;
+    transition: none;
 }
 
 .swiper {
