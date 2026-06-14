@@ -29,8 +29,8 @@ Moje inspiracia:
 |---|---|
 | GitHub Pages (live) | [` > ODKAZ NA WEB TADY < `](https://pslib-cz.github.io/2025-p2a-web-volny-projekt-RomanSedlo/) |
 | Grafický manuál (Figma / Canva) | [`Grafický manuál`](https://www.figma.com/proto/98TS964aiMU6INuBdVLD2q/Sedl%C3%A1%C5%99Roman-TheRainShark-Portfolio?node-id=240-468&p=f&t=TIvxPc7WjGop2MRM-0&scaling=contain&content-scaling=fixed&page-id=240%3A467) |
-| Grafický návrh webu (Figma) | [`Figma, mobile and PC design`](https://www.figma.com/design/98TS964aiMU6INuBdVLD2q/Sedl%C3%A1%C5%99Roman-TheRainShark-Portfolio?node-id=9-2&t=OqKzTWe66Wb6MKp1-1) |
-| Fotografie / média | [`Obrázky zde.`](./assets/images/) |
+| Grafický návrh webu (Figma) | [`Figma, mobile`](https://www.figma.com/design/98TS964aiMU6INuBdVLD2q/Sedl%C3%A1%C5%99Roman-TheRainShark-Portfolio?node-id=9-2&t=OqKzTWe66Wb6MKp1-1) a [`PC design`](https://www.figma.com/design/98TS964aiMU6INuBdVLD2q/Sedl%C3%A1%C5%99Roman-TheRainShark-Portfolio?node-id=41-2&p=f&t=EBdMH8efKnBOCOew-0) |
+| Fotografie / média | [`Obrázky zde`](./assets/images/) |
 
 ---
 
@@ -39,3 +39,5 @@ Moje inspiracia:
 _Prostor pro vlastní poznámky, zpětnou vazbu, TODO apod._
 
 button má speciální particly při hoveru které mají barvu textu a při active taky, jenom se zastaví nebo nějáká akce se změní prostě.
+
+svg na pozadí.
