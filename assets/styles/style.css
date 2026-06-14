@@ -15,7 +15,7 @@
     --card-title: #fff;
     --text-muted: rgba(255, 255, 255, 0.63);
 
-    --shadow: rgba(0, 0, 0, 0.50) 0 0 8px;
+    --shadow: rgba(0, 0, 0, 0.9) 0 0 8px;
     --shadow-lighter: rgba(0, 0, 0, 0.25) 0 0 8px;
 
     --nav-height: 60px;
@@ -131,7 +131,7 @@ img {
     border: 0;
     text-decoration: none;
     box-shadow: var(--primary) 0 0 4px;
-    transition: background .6s ease-in-out;
+    transition: background .5s ease-in-out, box-shadow .8s;
 }
 .button:hover, button[type="submit"]:hover {
     background-color: var(--bw-text);
@@ -155,7 +155,16 @@ img {
     max-width: 320px;
 }
 .swiper-pagination-bullet  {
-    background-color: var(--secondary) !important;
+    width: 16px !important;
+    height: 16px !important;
+    background-color: var(--secondary-bg) !important;
+    opacity: 1 !important;
+    margin-left: 5px !important;
+    margin-right: 5px !important;
+}
+.swiper-pagination-bullet-active {
+    outline: 4px inset var(--secondary);
+    outline-offset: -3px;
 }
 .card {
     display: flex;
